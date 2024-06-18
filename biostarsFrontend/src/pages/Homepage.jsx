@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import Post from '../components/Post';
 
 const SearchBar = () => {
   return (
@@ -17,6 +18,9 @@ const Homepage = () => {
     <div className='flex flex-col items-center'>
       <Navbar />
       <SearchBar />
+      <main className='mt-10'>
+        <Post />
+      </main>
     </div>
   );
 };
